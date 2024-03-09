@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(40, 40, 70);
+    color: rgb(225, 225, 225);
+    font-family: Helvetica, sans-serif;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.center {
+    text-align: center;
+}
+
+.d-flex.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.mt-5 {
+    margin-top: 2.5rem;
+}
+
+.mt-6 {
+    margin-top: 5rem;
+}
+
+.mt-7 {
+    margin-top: 10rem;
+}
+
+.mt-8 {
+    margin-top: 15rem;
+}
